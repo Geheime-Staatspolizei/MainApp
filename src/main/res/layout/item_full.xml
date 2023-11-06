@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="20dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/item_is_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/_204" />
+
+    <TextView
+        android:id="@+id/item_is_list_litle"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_is_list_price"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_is_list_desc"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/item_is_list_zacaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E0C10"
+        android:text="Заказать" />
+</LinearLayout>
